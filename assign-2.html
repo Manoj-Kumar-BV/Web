@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assign-2</title>
+</head>
+<body>
+    <div>
+        <form action="/server">
+            <div>
+                <label for="name">Name :</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div>
+                <label for="gender">Sex :</label>
+                <input type="radio" id="gender" name="gender" value="male">Male
+                <input type="radio" id="gender" name="gender" value="female">Female
+            </div>    
+            <div>
+                <label for="country">Country:</label>
+                <select name="country" id="country">
+                    <option value="">Select an Option</option>
+                    <option value="ind">India</option>
+                    <option value="nep">Nepal</option>
+                    <option value="usa">USA</option>
+                    <option value="can">Canada</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="feedback">Message : </label>
+                <br>
+                <textarea name="feedback" id="feedback" rows="5" cols="30"></textarea>
+            </div>
+            <div>
+                <label for="check"></label>
+                <input type="checkbox" name="check">Subscribe?
+            </div> 
+            <br>
+            <button>Submit</button>
+        </form>
+    </div>
+</body>
+</html>
